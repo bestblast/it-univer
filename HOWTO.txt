@@ -23,3 +23,26 @@ git push -u origin master
 
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 
+SSH
+
+Quick setup — if you've done this kind of thing before
+
+SSH
+	
+We recommend every repository include a README, LICENSE, and .gitignore.
+…or create a new repository on the command line
+
+
+echo "# it-univer" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:bestblast/it-univer.git
+git push -u origin master
+…or push an existing repository from the command line
+
+
+git remote add origin git@github.com:bestblast/it-univer.git
+git push -u origin master
+
+
